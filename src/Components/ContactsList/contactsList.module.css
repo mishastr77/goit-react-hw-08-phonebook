@@ -1,0 +1,36 @@
+ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  flex-direction: column;
+}
+
+li {
+  display: inline-block;
+  font-size: 25px;
+}
+
+p {
+  display: inline-block;
+  margin: 15px 30px;
+}
+
+button {
+  background-color: white; /* Green */
+  border: none;
+  color: black;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border: 2px solid black;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 30px;
+}
+
+button:hover {
+  background-color: blue;
+  color: white;
+}

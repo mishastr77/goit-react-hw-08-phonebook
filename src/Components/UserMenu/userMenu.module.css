@@ -1,0 +1,8 @@
+container {
+  display: flex;
+  align-items: center;
+}
+mail {
+  font-weight: 700;
+  margin-right: 12px;
+}
