@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
 import { authOperations } from "../redux/auth";
+import Button from "@material-ui/core/Button";
 
 const styles = {
   form: {
@@ -45,7 +46,7 @@ class RegisterView extends Component {
           autoComplete="off"
         >
           <label style={styles.label}>
-            Имя
+            Name
             <input
               type="text"
               name="name"
@@ -55,7 +56,7 @@ class RegisterView extends Component {
           </label>
 
           <label style={styles.label}>
-            Почта
+            E-mail
             <input
               type="email"
               name="email"
@@ -65,7 +66,7 @@ class RegisterView extends Component {
           </label>
 
           <label style={styles.label}>
-            Пароль
+            Password
             <input
               type="password"
               name="password"
@@ -73,8 +74,9 @@ class RegisterView extends Component {
               onChange={this.handleChange}
             />
           </label>
-
-          <button type="submit">Зарегистрироваться</button>
+          <Button type="submit" variant="contained" color="primary">
+            Registration
+          </Button>
         </form>
       </div>
     );

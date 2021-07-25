@@ -16,7 +16,7 @@ const styles = {
 
 const HomeView = () => (
   <div style={styles.container}>
-    <h1 style={styles.title}>Home Page</h1>
+    <h1 style={styles.title}>Welcome to the my first CRUD site !!!! </h1>
   </div>
 );
 
